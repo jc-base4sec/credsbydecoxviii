@@ -26,7 +26,7 @@ class pwndb(object):
     def __init__(self, args):
 
         self.args = args
-        self.site = "http://pwndb2am4tzkvold.onion/"
+        self.site = "https://pwndb2am4tzkvold.onion.ws/"
         self.data = {"luseropr": 1, "domainopr": 1, "submitform": "em"}
 
         proxy = self.args["--proxy"]
